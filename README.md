@@ -48,6 +48,7 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+### index.html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -167,6 +168,105 @@ Upload to GitHub Pages for free hosting.
   
 </body>
 </html>
+```
+
+### style.css
+```
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  table {
+          width: 70%;
+          margin: auto;
+          border-collapse: collapse;
+      }
+  th, td {
+          border: 1px solid black;
+          padding: 10px;
+          text-align: center;
+      }
+  th {
+          background-color: #f2f2f2;
+      }
+
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: #00bcd4;
+  }
+
+  .section {
+    padding: 50px 20px;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  #home {
+    background-color: sandybrown;
+  }
+
+  #about {
+    background-color: #e6f7ff;
+  }
+
+  #education {
+    background-color: #d9f7be;
+  }
+
+  #skills {
+    background-color: #d9f7be;
+  }
+
+  #projects {
+    background-color: #fff1b8;
+  }
+
+  #contact {
+    background-color: #ffe7ba;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+
 ```
 
 ## OUTPUT
